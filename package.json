@@ -1,0 +1,19 @@
+{
+  "name": "arpy",
+  "version": "1.0.0",
+  "description": "Arpy is a scriptable network analysis tool written in *node.js*.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sudo node ."
+  },
+  "author": "ReplayCoding",
+  "license": "MIT",
+  "dependencies": {
+    "arpjs": "^1.1.12",
+    "chalk": "^2.4.1",
+    "dcipher": "^1.1.0",
+    "minimist": "^1.2.0",
+    "pcap": "^2.1.0"
+  }
+}
